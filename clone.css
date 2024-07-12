@@ -1,0 +1,143 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+}
+
+header {
+    background: url('https://source.unsplash.com/1200x500/?factory') no-repeat center center/cover;"
+    
+    color: white;
+    padding-bottom: 20px;
+}
+
+.top-bar {
+    background: #002f7a;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.contact-info span {
+    color: #00b3ff;
+}
+
+.hero {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    margin-left:900px;
+}
+
+.contact-form h2 {
+    margin-bottom: 15px;
+    font-size: 1.5rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background: #00b3ff;
+    color: white;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background: #008ecc;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background: #f4f4f4;
+}
+
+.feature {
+    text-align: center;
+    width: 30%;
+}
+
+.feature img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.feature h3 {
+    margin: 10px 0;
+}
+
+.about {
+    text-align: center;
+    padding: 40px 20px;
+    background: #002f7a;
+    color: white;
+}
+
+.about button {
+    padding: 10px 20px;
+    background: #00b3ff;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.about button:hover {
+    background: #008ecc;
+}
+
+.content {
+    
+    
+    padding: 20px;
+    background: #f4f4f4;
+}
+
+.content-item {
+    width: 45%;
+    text-align: center;
+}
+
+.content-item img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+footer {
+    background: #002f7a;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+}
